@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.block-1 {
+    background-color: #ffe0b2;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid orange;
+}
+.inline-1 {
+    background-color: #bbdefb;
+    padding: 5px;
+    border: 1px solid blue;
+}
+
+.box-item {
+    background-color: #e0f7fa;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid teal;
+    text-align: center;
+    line-height: 50px;
+}
+.inline-block {
+    display: inline-block;
+}
+
+.box-sizing-example {
+    width: 250px;
+    height: 80px;
+    padding: 20px;
+    border: 5px solid red;
+    margin-bottom: 10px;
+    background-color: #fce4ec;
+}
+.border-box {
+    box-sizing: border-box;
+}
+.content-box {
+    box-sizing: content-box; 
+}
+
+.floated-box {
+    width: 150px;
+    height: 100px;
+    background-color: #a5d6a7;
+    margin-right: 15px;
+    float: left; 
+    border: 1px solid green;
+    padding: 10px;
+}
+.float-container {
+    border: 2px dashed gray;
+    padding: 5px;
+}
+.clearfix {
+    clear: both; 
+    height: 1px; 
+}
+
+.overflow-box {
+    width: 300px;
+    height: 100px;
+    border: 2px solid purple;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.scroll {
+    overflow: scroll;
+}
+.hidden {
+    overflow: hidden;
+}
+
+.position-box {
+    width: 100px;
+    height: 50px;
+    background-color: #ffcc80;
+    border: 1px solid #ff9800;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #f44336;
+    color: white;
+    z-index: 100;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #4caf50;
+    color: white;
+    z-index: 99;
+}
+.absolute {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    background-color: #03a9f4;
+}
